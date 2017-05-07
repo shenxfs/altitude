@@ -15,7 +15,7 @@
 typedef struct atmosphere
 {
     qfxn_t Pb;      /**< layout static press(kPa),Q=8 */
-    qfxn_t Hb;      /**< layout static temperature(m),Q=0*/
+    qfxn_t Hb;      /**< layout altitude(m),Q=0*/
     qfxn_t Beta;    /**< constatnt B/Tb ,Q=30 */
     qfxn_t Ca;      /**< constant :Beta? -gn/Beta/R(Q= 9):-gn/Tb/R(Q=27) */
     qfxn_t Cb;      /**< reciprocal of Ca,Beta?(Q = 17):(Q=2) */
